@@ -3,7 +3,7 @@ import whatsappLogo from '../assets/whatsapp-logo.png';
 
 
 function WhatsAppButton() {
-  const whatsappNumber = '50431522667'
+  const whatsappNumber = '50497874387'
   const message = '¡Hola! Estoy interesado en tus productos.';
 
   // const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
