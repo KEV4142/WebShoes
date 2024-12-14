@@ -10,13 +10,13 @@ import "./App.css";
 function App() {
   return (
     <Router>
-    <div className="App">
+    <div className="container">
       <Header />
       <main>
         <Home />
-
+        <div className="double-line"></div>
         <Products />
-
+        <div className="double-line"></div>
         <AboutUs />
       </main>
       <Footer />

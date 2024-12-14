@@ -23,19 +23,30 @@ const numero = isMobile
 
 function Products() {
   return (
-    <section id="products">
-      <div>
-        <h1>Nuestros productos</h1>
-        <ul className="product-list">
-          <li>Zapato para Caballeros</li>
-              <ImageCarousel images={images} ancho="85%" numero={numero}/>
-          <li>Zapato para Damas</li>
-              <ImageCarousel images={imagesMujeres} ancho="80%" numero={numero}/>
-          <li>Zapato para Niños</li>
-              <ImageCarousel images={imagesKids} ancho="80%" numero={numero}/>
-          <li>Calzado Industrial</li>
-              <ImageCarousel images={imagesTrabajo} ancho="80%" numero={numero}/>
-        </ul>
+    <section id="products" className="common-section bg-light py-5">
+      <div className="container">
+        <h1 className="text-center mb-5 fw-bold">Nuestros Productos</h1>
+        <div className="row gy-5">
+          <div className="col-12">
+            <h2 className="text-center">Zapato para Caballeros</h2>
+            <ImageCarousel images={images} ancho="95%" numero={numero} />
+            <div className="border-top mt-4 mb-4"></div>
+          </div>
+          <div className="col-12">
+            <h2 className="text-center">Zapato para Damas</h2>
+            <ImageCarousel images={imagesMujeres} ancho="90%" numero={numero} />
+            <div className="border-top mt-4 mb-4"></div>
+          </div>
+          <div className="col-12">
+            <h2 className="text-center">Zapato para Niños</h2>
+            <ImageCarousel images={imagesKids} ancho="90%" numero={numero} />
+            <div className="border-top mt-4 mb-4"></div>
+          </div>
+          <div className="col-12">
+            <h2 className="text-center">Calzado Industrial</h2>
+            <ImageCarousel images={imagesTrabajo} ancho="90%" numero={numero} />
+          </div>
+        </div>
       </div>
     </section>
   );

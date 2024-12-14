@@ -5,28 +5,68 @@ import instagramIcon from '../assets/instagram-logo.png';
 import youtubeIcon from '../assets/youtube-logo.png';
 import tiktokIcon from '../assets/tiktok-logo.png';
 
-
 function Footer() {
   return (
-    <footer>
-      <div>
-        <p>&copy; 2024 Zapatería San Carlos. Todos los derechos reservados.</p>
-      </div>
-      <div className="social-icons">
-      <WhatsAppButton />
-      
-        <a href="https://facebook.com/CalzadoSanCarlo.hn" target="_blank" rel="noopener noreferrer">
-          <img src={facebookIcon} alt="Facebook" style={{ width: '50px', height: '50px' }} />
-        </a>
-        <a href="https://www.instagram.com/calzadosancarlo/" target="_blank" rel="noopener noreferrer">
-          <img src={instagramIcon} alt="Instagram" style={{ width: '50px', height: '50px' }} />
-        </a>
-        <a href="https://www.youtube.com/@calzadosancarlo8194" target="_blank" rel="noopener noreferrer">
-          <img src={youtubeIcon} alt="YouTube" style={{ width: '50px', height: '50px' }} />
-        </a>
-        <a href="https://www.tiktok.com/@calzado.sancarlo" target="_blank" rel="noopener noreferrer">
-          <img src={tiktokIcon} alt="TikTok" style={{ width: '50px', height: '50px' }} />
-        </a>
+    <footer className="bg-dark text-white py-4">
+      <div className="container-fluid px-4">
+        <div className="text-center mb-3">
+          <p className="mb-0">&copy; 2024 Zapatería San Carlos. Todos los derechos reservados.</p>
+        </div>
+        <div className="social-icons text-center">
+          <WhatsAppButton />
+          <a
+            href="https://facebook.com/CalzadoSanCarlo.hn"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mx-2"
+          >
+            <img
+              src={facebookIcon}
+              alt="Facebook"
+              className="img-fluid"
+              style={{ width: '50px', height: '50px' }}
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/calzadosancarlo/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mx-2"
+          >
+            <img
+              src={instagramIcon}
+              alt="Instagram"
+              className="img-fluid"
+              style={{ width: '50px', height: '50px' }}
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/@calzadosancarlo8194"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mx-2"
+          >
+            <img
+              src={youtubeIcon}
+              alt="YouTube"
+              className="img-fluid"
+              style={{ width: '50px', height: '50px' }}
+            />
+          </a>
+          <a
+            href="https://www.tiktok.com/@calzado.sancarlo"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mx-2"
+          >
+            <img
+              src={tiktokIcon}
+              alt="TikTok"
+              className="img-fluid"
+              style={{ width: '50px', height: '50px' }}
+            />
+          </a>
+        </div>
       </div>
     </footer>
   );
