@@ -31,20 +31,19 @@ button:hover {
   background-color: #128c7e;
 }
 
-
 header {
-  background-color: #101C2C;
+  background-color: #101c2c;
   color: white;
   display: flex;
   width: 100%;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
 }
+
 header .logo img {
   width: 150px;
   height: auto;
@@ -150,26 +149,7 @@ nav ul li a:hover {
   text-align: center;
 }
 
-
-
-
-.banner {
-  position: relative;
-  width: 100vw;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-.banner-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-
 section {
-  min-height: 100vh; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -177,12 +157,6 @@ section {
 
 /* Tabletas */
 @media (max-width: 768px) {
-  header {
-    position: static;
-    flex-direction: column;
-    padding: 1rem;
-  }
-  
   header .logo img {
     width: 120px;
   }
@@ -208,7 +182,6 @@ section {
   }
 
   section {
-    min-height: 100vh; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -255,18 +228,11 @@ section {
     text-align: center;
     list-style: none;
   }
-  footer .social-icons img {
-    width: 40px;
-    height: 40px;
-  }
 
   .banner-image {
     height: 200px;
   }
 
-  section {
-    min-height: 100vh;
-  }
   .carousel-container img {
     margin: 0 auto;
     width: 50%;

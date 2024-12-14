@@ -1,8 +1,13 @@
 import React from "react";
 
+const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 function Header() {
   return (
-    <header className="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top fixed-md-top"> 
+    <header
+      className={`navbar navbar-expand-lg navbar-dark navbar-custom ${!isMobile ? "fixed-top" : "" }`}
+      style={isMobile ? { position: "static", width: "100%" } : {}}
+    >
+
       <div className="container">
         <a className="navbar-brand" href="#home">
           <img

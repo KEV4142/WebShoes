@@ -18,12 +18,12 @@ function Footer() {
             href="https://facebook.com/CalzadoSanCarlo.hn"
             target="_blank"
             rel="noopener noreferrer"
-            className="mx-2"
+            className="mx-1"
           >
             <img
               src={facebookIcon}
               alt="Facebook"
-              className="img-fluid"
+              // className="img-fluid"
               style={{ width: '50px', height: '50px' }}
             />
           </a>
@@ -31,12 +31,12 @@ function Footer() {
             href="https://www.instagram.com/calzadosancarlo/"
             target="_blank"
             rel="noopener noreferrer"
-            className="mx-2"
+            className="mx-1"
           >
             <img
               src={instagramIcon}
               alt="Instagram"
-              className="img-fluid"
+              // className="img-fluid"
               style={{ width: '50px', height: '50px' }}
             />
           </a>
@@ -44,12 +44,12 @@ function Footer() {
             href="https://www.youtube.com/@calzadosancarlo8194"
             target="_blank"
             rel="noopener noreferrer"
-            className="mx-2"
+            className="mx-1"
           >
             <img
               src={youtubeIcon}
               alt="YouTube"
-              className="img-fluid"
+              // className="img-fluid"
               style={{ width: '50px', height: '50px' }}
             />
           </a>
@@ -57,12 +57,12 @@ function Footer() {
             href="https://www.tiktok.com/@calzado.sancarlo"
             target="_blank"
             rel="noopener noreferrer"
-            className="mx-2"
+            className="mx-1"
           >
             <img
               src={tiktokIcon}
               alt="TikTok"
-              className="img-fluid"
+              // className="img-fluid"
               style={{ width: '50px', height: '50px' }}
             />
           </a>
