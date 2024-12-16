@@ -37,7 +37,8 @@ html {
   width: 100%;
   height: auto;
   object-fit: cover;
-  max-height: 700px;
+  max-height: 600px;
+
 }
 .common-section {
   scroll-margin-top: 100px;
@@ -98,8 +99,14 @@ footer .social-icons img:hover {
 }
 
 @media (max-width: 480px) {
+  .common-section {
+    scroll-margin-top: 20px;
+  }
+  footer .social-icons {
+    gap: 10px;
+  }
   footer .social-icons img {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
   }
 }

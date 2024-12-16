@@ -2,6 +2,8 @@ import React from "react";
 import locationIcon from "../assets/ubicacion.png";
 
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+const direccionPrincipal=import.meta.env.VITE_DIRECCION1;
+const direccionSucursal=import.meta.env.VITE_DIRECCION2;
 function AboutUs() {
   return (
     <section id="about-us" className="common-section bg-light py-5">
@@ -34,7 +36,7 @@ function AboutUs() {
           <div className={`${isMobile ? "col-md-6 border-dark" : "col-md-6 border-end border-dark" } `}>
             <h5 className="text-center fw-bold">
               <a
-                href="https://maps.google.com/maps/search/Calzado+San+Carlo%2C+Boulevard+Moraz%C3%A1n%2C+San+Pedro+Sula%2C+Honduras"
+                href={direccionPrincipal}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-decoration-none text-dark"
@@ -64,7 +66,7 @@ function AboutUs() {
           <div className="col-md-6">
             <h5 className="text-center fw-bold">
               <a
-                href="https://maps.google.com/maps/search/Walmart+San+Pedro+Sula"
+                href={direccionSucursal}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-decoration-none text-dark"

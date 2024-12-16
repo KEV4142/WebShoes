@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "./Banner";
-import bannerImage from "../assets/banner.png";
+import bannerImage from "../assets/banner.webp";
 
 // const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 function Home() {

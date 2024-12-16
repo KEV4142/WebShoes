@@ -23,7 +23,6 @@ function Footer() {
             <img
               src={facebookIcon}
               alt="Facebook"
-              // className="img-fluid"
               style={{ width: '50px', height: '50px' }}
             />
           </a>
@@ -36,7 +35,6 @@ function Footer() {
             <img
               src={instagramIcon}
               alt="Instagram"
-              // className="img-fluid"
               style={{ width: '50px', height: '50px' }}
             />
           </a>
@@ -49,7 +47,6 @@ function Footer() {
             <img
               src={youtubeIcon}
               alt="YouTube"
-              // className="img-fluid"
               style={{ width: '50px', height: '50px' }}
             />
           </a>
@@ -62,7 +59,6 @@ function Footer() {
             <img
               src={tiktokIcon}
               alt="TikTok"
-              // className="img-fluid"
               style={{ width: '50px', height: '50px' }}
             />
           </a>

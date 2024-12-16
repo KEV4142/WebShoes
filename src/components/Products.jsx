@@ -2,19 +2,19 @@ import React from "react";
 import ImageCarousel from "./Carrusel";
 
 const images = Object.values(
-  import.meta.glob("../assets/caballeros/*.jpg", { eager: true })
+  import.meta.glob("../assets/caballeros/*.webp", { eager: true })
 ).map((module) => module.default);
 
 const imagesMujeres = Object.values(
-  import.meta.glob("../assets/mujeres/*.jpg", { eager: true })
+  import.meta.glob("../assets/mujeres/*.webp", { eager: true })
 ).map((module) => module.default);
 
 const imagesKids = Object.values(
-  import.meta.glob("../assets/kids/*.jpg", { eager: true })
+  import.meta.glob("../assets/kids/*.webp", { eager: true })
 ).map((module) => module.default);
 
 const imagesTrabajo = Object.values(
-  import.meta.glob("../assets/trabajo/*.jpg", { eager: true })
+  import.meta.glob("../assets/trabajo/*.webp", { eager: true })
 ).map((module) => module.default);
 const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 const numero = isMobile
