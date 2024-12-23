@@ -84,6 +84,7 @@ return (
                 alt={`Slide ${index + 1}`}
                 className="img-fluid rounded"
                 style={{
+                  // backgroundColor: "white",
                   width: ancho,
                   maxWidth: "100%",
                   maxHeight: "400px",

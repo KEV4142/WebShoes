@@ -8,7 +8,10 @@ function Banner({ image }) {
           src={image}
           alt="Banner"
           className="img-fluid banner-image"
-          style={{ marginTop: "100px"}}
+          style={{ marginTop: "115px",
+            borderRadius: "15px",
+            boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+          }}
         />
       </div>
     </section>
